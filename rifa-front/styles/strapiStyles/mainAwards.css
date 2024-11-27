@@ -1,0 +1,44 @@
+.main-awards-container {
+  height: auto;
+  background-color: black;
+  padding-top: 2.5rem;
+  width: 100%;
+}
+
+.main-awards-title {
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+  font-family: 'Moderat-Extended-Bold';
+  font-weight: 700;
+}
+.main-awards-title-underline {
+  width: 80%; /* Adjust the width as needed */
+  height: 1px;
+  background-color: #ffffff;
+  margin: 0 auto; /* Center the underline */
+}
+
+.main-awards-img {
+  width: 100%;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.main-awards-img img {
+  max-width: 100%;
+  max-height: 300px;
+  margin: auto;
+}
+
+.slick-slide > div {
+  padding: 0 10px;
+}
+
+@media (max-width: 740px) {
+  .main-awards-title {
+    text-align: center;
+    font-size: 30px;
+  }
+}

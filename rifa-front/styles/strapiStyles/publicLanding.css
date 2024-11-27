@@ -1,0 +1,9 @@
+.public-main-landing {
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+  color: var(--text-color);
+  box-sizing: border-box;
+  position: relative;
+  top: 90px;
+}

@@ -1,0 +1,178 @@
+<mjml>
+<mj-head>
+    <mj-title>¡Tu oportunidad de ganar te espera!</mj-title>
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Poppins, sans-serif"></mj-all>
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+    <mj-style>
+      .text-body p,
+      .text-body div {
+        color: #282F39 !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 24px !important;
+      }
+      .text-body .bold-text,
+      .bold-text {
+        font-weight: 800 !important;
+      }
+      .text-title p,
+      .text-title div {
+        color: #282F39 !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        line-height: 41px !important;
+        letter-spacing: 0.02em !important;
+      }
+      .text-body-small p,
+      .text-body-small div {
+        color: #324B5E !important;
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        line-height: 22px !important;
+        color: #324B5E !important;
+      }
+      .text-body-alert p,
+      .text-body-alert div {
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+        line-height: 22px !important;
+      }
+      .text-footer p,
+      .text-footer div {
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        line-height: 20px !important;
+        text-align: center !important;
+        color: #FFFFFF !important;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+      }
+
+      .text-body a {
+        color: #EC0091 !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 24px !important;
+        font-style: "underline" !important;
+        text-align: center !important;
+      }
+      .center-words {
+        text-align: center !important;
+      }
+      .no-margin {
+        margin: 0 !important;
+      }
+      .footer-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF !important;
+        border-radius: 30px;
+        width: 36px;
+        height: 36px
+      }
+      .spacer {
+        height: 60px !important
+      }
+      .table-container {
+        max-width: 415px !important;
+        padding-top: 15px;
+        padding-bottom: 48px
+      }
+      .table-container-item {
+        font-weight: 500 !important;
+        font-size: 16px !important;
+        line-height: 20px !important;
+        padding-top: 6px !important;
+        padding-bottom: 6px !important;
+      }
+      .lower-margin {
+        margin: 6px 0 !important;
+      }
+      .button-green {
+        margin-bottom: 80px !important;
+      }
+      .button-green p,
+      .button-green a {
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        line-height: 24px !important;
+        padding: 12px 30px !important;
+      }
+      @media(max-width:480px) {
+        .button-green p,
+        .button-green a {
+          font-size: 16px !important;
+        }
+        .text-title p,
+        .text-title div {
+          font-size: 24px !important;
+          line-height: 33px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+  <mj-wrapper background-color="#FFFFFF" padding="0px">
+    <mj-section>
+          <mj-column background-color="#000">
+            <mj-image width="1020px" padding-bottom="15px" alt="Logo RifaClub" src="http://cdn.mcauto-images-production.sendgrid.net/241b93fc4d3024c5/8a3fc1c5-430c-45e9-93a5-3b05c5108844/480x60.png"></mj-image>
+          </mj-column>
+    </mj-section>
+    <mj-section>
+        <mj-column>
+          <mj-text css-class="text-title"><p class="center-words">¡Tu oportunidad de ganar te espera!</p></mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text css-class="text-body">
+          <p class="center-words">¡ Estamos emocionados de que te unas a <span class='bold-text'>Rifa Club</span> !.</p>
+          <p class="center-words">Para completar tu registro y empezar a disfrutar de todos los beneficios de <span class='bold-text'>Rifa Club</span>, debes verificar tu dirección de correo electrónico.</p>
+          <p class="center-words">Solo tienes que hacer click en el siguiente botón para confirmar tu email.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="20px">
+        <mj-column>
+          <mj-button css-class="button-green" background-color="#8CEF7A" color="#000000" border-radius="10px" height="36px" href="{{urlRedirectWithToken}}">
+            Confirmar email
+          </mj-button>
+        </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text css-class="text-body">
+          <p class="center-words">¡No te pierdas la oportunidad de disfrutar de todo lo que <span class='bold-text'>Rifa Club</span> tiene para ofrecer!</p>
+          <p class="center-words">Si tienes alguna pregunta , no dudes en contactarnos.</p>
+          <p class="center-words">¡Gracias por elegirnos y bienvenido!</p>
+          <p class="center-words"><span class='bold-text'>El equipo de RifaClub</span></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+     <mj-section background-color="#000" padding-bottom="30px" padding-top="30px">
+        <mj-column width="100%">
+          <mj-social mode="horizontal" inner-padding="6px">
+            <mj-social-element css-class="footer-icon" src="http://cdn.mcauto-images-production.sendgrid.net/d7f15cbe93ccfaa7/456e3116-01d7-485e-9b06-831efe869cd8/37x36.png" href="{{socialMediaInstagram}}" icon-size="24px">
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+        <mj-column width="100%">
+          <mj-text css-class="text-footer">
+            <p>Copyright © 2024 Rifa Club All rights reserved.</p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="100%" padding-top="10px">
+          <mj-image src="http://cdn.mcauto-images-production.sendgrid.net/241b93fc4d3024c5/d2673dd1-30a5-470a-99fe-e9109a23b036/93x75.png" alt="Logo Rifa Club" width="64px" padding="0px"></mj-image>
+        </mj-column>
+      </mj-section>
+  </mj-wrapper>
+  </mj-body>
+</mjml>

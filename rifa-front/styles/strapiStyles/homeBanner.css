@@ -1,0 +1,94 @@
+.homebanner-container {
+  position: relative;
+  z-index: 0;
+  height: auto;
+  margin-top: 112px;
+  margin-bottom: 50px;
+}
+.homebanner-children {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  width: 432px;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 64px;
+  margin-top: 64px;
+  height: 400px;
+  height: 256px;
+}
+.homebanner-button {
+  width: 192px;
+}
+.homebanner-text {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  width: 197px;
+  line-height: 24px;
+  color: #aeaeae;
+  margin-bottom: -8px;
+}
+
+.homebanner-tittle {
+  color: #ecf6ef;
+  font-size: 40px;
+  width: 100%;
+  word-break: break-word;
+  line-height: 48px;
+  font-family: 'Moderat-Extended-Bold';
+  font-weight: 600;
+}
+
+.homebanner-bg-container {
+  position: relative;
+  height: 768px;
+  width: 100%;
+}
+.homebanner-bg-image {
+  position: absolute;
+  inset: 0;
+  transform: translateX(-5%) scale(1.1);
+  width: 100%;
+}
+.homebanner-children-position {
+  position: absolute;
+  inset: 0;
+  z-index: 50;
+  width: auto;
+  height: auto;
+  display: flex;
+}
+
+@media screen and (max-width: 760px) {
+  .homebanner-children {
+    margin-top: 0rem;
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+  .homebanner-button {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .homebanner-container {
+    margin-top: 32px;
+    height: 800px;
+  }
+  .homebanner-bg-container {
+    height: 784px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homebanner-bg-image {
+    width: 100%;
+    height: 480px;
+    margin: 304px auto 0;
+    transform: translate(-0%);
+  }
+}

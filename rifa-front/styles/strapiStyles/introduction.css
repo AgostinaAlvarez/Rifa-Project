@@ -1,0 +1,37 @@
+.introduction-container {
+  background-color: black;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.introduction-bg-image {
+  width: 100%;
+  height: auto;
+}
+
+.introduction-title {
+  font-size: 36px;
+  color: #ffffff;
+  font-family: 'Moderat-Extended-Bold';
+  font-weight: 700;
+}
+
+.introduction-content {
+  font-size: 16px;
+  color: #7e7e7e;
+  white-space: pre-wrap;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+@media (max-width: 760px) {
+  .introduction-title {
+    text-align: center;
+    font-size: 20px;
+  }
+  .introduction-content {
+    text-align: center;
+    font-size: 12px;
+  }
+}

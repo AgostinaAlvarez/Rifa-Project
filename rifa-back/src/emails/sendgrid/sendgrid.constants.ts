@@ -1,0 +1,2 @@
+export const SENDGRID_MAIL = 'SENDGRID_MAIL';
+export const SENDGRID_CLIENT = 'SENDGRID_CLIENT';

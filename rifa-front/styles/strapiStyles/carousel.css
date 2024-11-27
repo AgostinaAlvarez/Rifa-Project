@@ -1,0 +1,28 @@
+.custom-dots {
+  bottom: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+.custom-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.custom-dots li button {
+  color: #aeaeae;
+  font-size: 0.01px;
+  background-color: #aeaeae;
+  border-radius: 50%;
+  width: 0.75rem;
+  height: 0.75rem;
+  padding: 0;
+  display: inline-block;
+}
+.custom-dots li.slick-active button {
+  background-color: #8cef7a;
+}
+
+@media (max-width: 740px) {
+  .custom-dots {
+    display: none;
+  }
+}

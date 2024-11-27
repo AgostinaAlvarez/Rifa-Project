@@ -1,0 +1,14 @@
+.card {
+  border-radius: 12px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background-color: #181818;
+}
+@media (min-width: 1024px) {
+  .card {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
